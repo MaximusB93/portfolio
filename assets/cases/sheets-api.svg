@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Кейс 6. Google Sheets + Apps Script + API</title>
+  <desc id="desc">Скриншот кейса из презентации портфолио: автоматические выгрузки, витрины данных и обновление отчётов.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07111f"/><stop offset=".55" stop-color="#0d1b2e"/><stop offset="1" stop-color="#10231e"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#6ee7f9"/><stop offset="1" stop-color="#7ddf9a"/></linearGradient>
+    <style>
+      .kicker{font:700 24px Inter,Arial,sans-serif;fill:#6ee7f9;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:900 52px Inter,Arial,sans-serif;fill:#f5f7fb;letter-spacing:-1.8px}
+      .cell{font:700 17px Inter,Arial,sans-serif;fill:#d8e2f3}.muted{fill:#aab8cc}.result{font:900 28px Inter,Arial,sans-serif;fill:#07111f}.small{font:700 18px Inter,Arial,sans-serif;fill:#aab8cc}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="60" r="245" fill="#7ddf9a" opacity=".15"/>
+  <circle cx="150" cy="150" r="230" fill="#6ee7f9" opacity=".12"/>
+  <rect x="42" y="42" width="1116" height="591" rx="34" fill="rgba(255,255,255,.055)" stroke="rgba(255,255,255,.14)"/>
+  <text x="70" y="98" class="kicker">Sheets • Apps Script • API</text>
+  <text x="70" y="166" class="title">Автоматические выгрузки и витрины</text>
+  <rect x="70" y="210" width="610" height="270" rx="24" fill="rgba(255,255,255,.07)" stroke="rgba(255,255,255,.14)"/>
+  <g transform="translate(100 245)">
+    <rect width="535" height="42" rx="8" fill="rgba(110,231,249,.18)"/><text x="18" y="27" class="cell">source</text><text x="168" y="27" class="cell">metric</text><text x="332" y="27" class="cell">value</text><text x="452" y="27" class="cell">status</text>
+    <g class="muted"><text x="18" y="82" class="cell">Metrika API</text><text x="168" y="82" class="cell">visits</text><text x="332" y="82" class="cell">48 920</text><text x="452" y="82" class="cell">auto</text><text x="18" y="128" class="cell">Direct API</text><text x="168" y="128" class="cell">cost</text><text x="332" y="128" class="cell">1.2M</text><text x="452" y="128" class="cell">auto</text><text x="18" y="174" class="cell">CRM</text><text x="168" y="174" class="cell">sales</text><text x="332" y="174" class="cell">3 284</text><text x="452" y="174" class="cell">auto</text></g>
+  </g>
+  <rect x="720" y="210" width="368" height="270" rx="24" fill="rgba(255,255,255,.07)" stroke="rgba(255,255,255,.14)"/>
+  <text x="750" y="270" class="cell">→ регулярные API-выгрузки</text>
+  <text x="750" y="320" class="cell">→ обработка JSON</text>
+  <text x="750" y="370" class="cell">→ витрины данных</text>
+  <text x="750" y="420" class="cell">→ обновление по расписанию</text>
+  <rect x="70" y="510" width="1018" height="70" rx="22" fill="url(#accent)"/>
+  <text x="96" y="555" class="result">Результат: актуальные отчёты без ручного копирования</text>
+  <text x="70" y="612" class="small">Будников Максим • маркетинговая аналитика / BI / Martech</text>
+  <text x="1060" y="612" class="small">06</text>
+</svg>
